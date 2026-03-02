@@ -25,7 +25,7 @@ public class CloneableSerializable {
     static void cloneable() throws CloneNotSupportedException {
         Employee e = new Employee(7902, "smith");
         Employee copy = (Employee) e.clone();
-        System.out.println(copy.toString());
+        System.out.println(copy);
     }
 
     static void serializable() throws IOException, ClassNotFoundException {
