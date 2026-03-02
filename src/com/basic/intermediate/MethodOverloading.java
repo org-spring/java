@@ -14,11 +14,9 @@ class BookMyShow {
 public class MethodOverloading {
     static void main(String[] args) {
         BookMyShow bookMyShow = new BookMyShow();
-
-        BookMyShow.book(5); 			// static method
-        BookMyShow.book("dies irae"); 	// static method
-        bookMyShow.book(3, "dies irae"); // non-static method
-        bookMyShow.book("dies irae", 2); // non-static method
+        BookMyShow.book(5); 			
+        BookMyShow.book("dies irae"); 	
+        bookMyShow.book(3, "dies irae"); 
+        bookMyShow.book("dies irae", 2); 
     }
-
 }
