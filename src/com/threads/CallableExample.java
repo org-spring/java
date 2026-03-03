@@ -27,6 +27,6 @@ public class CallableExample {
         Future<Double> future = executorService.submit(callable);
         Double result = future.get();
         System.out.println(result);
-        executorService.shutDown();
+        executorService.shutdown();
     }
 }
