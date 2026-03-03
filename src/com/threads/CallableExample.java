@@ -14,7 +14,6 @@ class InterestCalculation implements Callable<Double> {
         this.rate = rate;
     }
 
-
     @Override
     public Double call() throws Exception {
         return (principle * rate) / 100;
